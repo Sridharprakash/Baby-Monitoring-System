@@ -1,7 +1,0 @@
-flask==2.3.3
-flask-socketio==5.3.6
-eventlet==0.33.3
-opencv-python==4.9.0.80
-ultralytics==8.1.25
-twilio==9.0.1
-numpy==1.26.4
