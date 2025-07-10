@@ -52,19 +52,19 @@ YOLO model path (model = YOLO("path/to/your/model.pt"))
 
 📦 Dependencies
 Listed in requirements.txt, major ones include:
-Flask
-Flask-SocketIO
-OpenCV-Python
-Ultralytics (YOLOv8)
-Twilio
-Eventlet (for SocketIO)
+-Flask
+-Flask-SocketIO
+-OpenCV-Python
+-Ultralytics (YOLOv8)
+-Twilio
+-Eventlet (for SocketIO)
 
 📱 How it Works
-Sensor sends heart rate and SpO2 via POST to /receive_data
-If vitals are low, SMS is triggered
-YOLOv8 runs in background thread on webcam frames
-Detected frames are sent to frontend via Socket.IO
-Music can be played/stopped via web buttons
+-Sensor sends heart rate and SpO2 via POST to /receive_data
+-If vitals are low, SMS is triggered
+-YOLOv8 runs in background thread on webcam frames
+-Detected frames are sent to frontend via Socket.IO
+-Music can be played/stopped via web buttons
 
 🔗 Connect
 Author: Sridhar prakash
