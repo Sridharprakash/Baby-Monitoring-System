@@ -32,64 +32,41 @@ This project is an **IoT-based baby monitoring system** built with **Flask**, **
    ```bash
    git clone https://github.com/yourusername/baby-monitoring-system.git
    cd baby-monitoring-system
-Create a virtual environment (optional but recommended)
+2. Create a virtual environment (optional but recommended)
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # or venv\Scripts\activate on Windows
+3. Install required packages
+   ```bash
+   pip install -r requirements.txt
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-Install required packages
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Edit the following in app.py:
+4.Edit the following in app.py:
 
 Your .mp3 file path (MUSIC_FILE)
-
 Twilio credentials (TWILIO_ACCOUNT_SID, etc.)
-
 YOLO model path (model = YOLO("path/to/your/model.pt"))
 
-Run the application
+5. Run the application
+   ```bash
+   python app.py
 
-bash
-Copy
-Edit
-python app.py
 📦 Dependencies
 Listed in requirements.txt, major ones include:
-
 Flask
-
 Flask-SocketIO
-
 OpenCV-Python
-
 Ultralytics (YOLOv8)
-
 Twilio
-
 Eventlet (for SocketIO)
 
 📱 How it Works
 Sensor sends heart rate and SpO2 via POST to /receive_data
-
 If vitals are low, SMS is triggered
-
 YOLOv8 runs in background thread on webcam frames
-
 Detected frames are sent to frontend via Socket.IO
-
 Music can be played/stopped via web buttons
 
-🧠 Future Improvements
-Add baby pose estimation
-
-Mobile app integration
-
-Store logs for vitals & alerts
-
-Replace mpg123 with cross-platform audio player
+🔗 Connect
+Author: Sridhar prakash
+LinkedIn: https://www.linkedin.com/in/sridhar-prakash-631343239/
+GitHub: https://github.com/Sridharprakash
