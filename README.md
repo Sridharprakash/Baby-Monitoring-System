@@ -49,6 +49,7 @@ This project is an **IoT-based baby monitoring system** built with **Flask**, **
 5. Run the application
    ```bash
    python app.py
+(Note:This repo includes code to receive sensor data(spo2,heartbeat) through post. I have not included the code required to send sensor data through http post)
 
 📦 Dependencies
 Listed in requirements.txt, major ones include:
@@ -57,7 +58,6 @@ Listed in requirements.txt, major ones include:
 - OpenCV-Python
 - Ultralytics (YOLOv8)
 - Twilio
-- Eventlet (for SocketIO)
 
 📱 How it Works
 - Sensor sends heart rate and SpO2 via POST to /receive_data
@@ -70,3 +70,4 @@ Listed in requirements.txt, major ones include:
 - Author: Sridhar prakash
 - LinkedIn: https://www.linkedin.com/in/sridhar-prakash-631343239/
 - GitHub: https://github.com/Sridharprakash
+
