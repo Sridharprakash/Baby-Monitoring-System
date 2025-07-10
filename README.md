@@ -42,9 +42,9 @@ This project is an **IoT-based baby monitoring system** built with **Flask**, **
 
 4.Edit the following in app.py:
 
-Your .mp3 file path (MUSIC_FILE)
-Twilio credentials (TWILIO_ACCOUNT_SID, etc.)
-YOLO model path (model = YOLO("path/to/your/model.pt"))
+- Your .mp3 file path (MUSIC_FILE)
+- Twilio credentials (TWILIO_ACCOUNT_SID, etc.)
+- YOLO model path (model = YOLO("path/to/your/model.pt"))
 
 5. Run the application
    ```bash
@@ -67,6 +67,6 @@ Listed in requirements.txt, major ones include:
 - Music can be played/stopped via web buttons
 
 🔗 Connect
-Author: Sridhar prakash
-LinkedIn: https://www.linkedin.com/in/sridhar-prakash-631343239/
-GitHub: https://github.com/Sridharprakash
+- Author: Sridhar prakash
+- LinkedIn: https://www.linkedin.com/in/sridhar-prakash-631343239/
+- GitHub: https://github.com/Sridharprakash
