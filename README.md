@@ -72,6 +72,6 @@ Listed in requirements.txt, major ones include:
 - GitHub: https://github.com/Sridharprakash
 
 📸 Screenshots
-[IMG-20250316-WA0019](https://github.com/user-attachments/assets/48d6fb2c-8470-4aa5-9cbf-7793f0aadd46)
+![IMG-20250316-WA0019](https://github.com/user-attachments/assets/48d6fb2c-8470-4aa5-9cbf-7793f0aadd46)
 
 
